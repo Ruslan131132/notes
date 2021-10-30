@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Домашняя работа 4.4</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="stylesheet" href="styles.css">
+		<script src="jquery-3.6.0.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		 <div class="container">
+			<div class="col col-1" >
+				<p class="block-name" id="to-do-list">
+					Список дел:
+				</p>
+				<div class="case">
+					<div class="case-name">
+						<p>Купить лошадь</p>
+						<p class="delete-block">&#10060;</p>
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 960 1" enable-background="new 0 0 960 560" xml:space="preserve" class="slide-block">
+							<g id="Rounded_Rectangle_33_copy_4_1_">
+								<path d="M480,344.181L268.869,131.889c-15.756-15.859-41.3-15.859-57.054,0c-15.754,15.857-15.754,41.57,0,57.431l237.632,238.937   c8.395,8.451,19.562,12.254,30.553,11.698c10.993,0.556,22.159-3.247,30.555-11.698l237.631-238.937   c15.756-15.86,15.756-41.571,0-57.431s-41.299-15.859-57.051,0L480,344.181z"/>
+							</g>
+						</svg>
+					</div>
+					<div class="case-text">
+						По цене 300 т.р. за штуку
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<p class="block-name">
+					Добавить новое дело:
+				</p>
+				<div id="new-deal">
+					<p id="name">*&nbsp;Название</p>
+					<input type="text" name="name" placeholder="" id="name-input" maxlength="20" />
+
+					<p id="description">*&nbsp;Описание</p>
+					<textarea type="text" name="text" placeholder="" id="text-input" maxlength="200"></textarea>
+
+					<button class="btn">Добавить дело</button>
+				</div>
+			</div>
+		 </div>
+
+	</body>
+</html>
